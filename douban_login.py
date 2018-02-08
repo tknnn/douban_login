@@ -123,10 +123,8 @@ def _get_ck(content):#修改签名
                 self.ck = _attr(attrs, 'value')
 
 if __name__ == '__main__':
-    username='619323390@qq.com'
-    password='lbq1993727'
-    #username = raw_input('username: ')
-    #password = raw_input('password: ')
+    username = raw_input('username: ')
+    password = raw_input('password: ')
     #password = get_pass.get_pass('password: ')
     d = DoubanClient()
     d.login(username, password)
